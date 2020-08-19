@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@fontsize: 14px;
+@fontfamily: "Raleway";
+@fontweight: 400;
+@fontweightOne: 700;
+@min1440: ~"only screen and (min-width: 1440px)";
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#colors() {
+	whitish: #ffff;
+	gradient: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	paleblue: hsl(243, 100%, 93%);
+	grayishblue: hsl(229, 7%, 55%);
+	arkblue: hsl(228, 56%, 26%);
+	verydarkblue: hsl(229, 57%, 11%);
+}
+#my-mixin {
+	font-size: @fontsize;
+	font-family: @fontfamily;
+	font-weight: @fontweight;
+}
